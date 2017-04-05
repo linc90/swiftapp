@@ -13,11 +13,13 @@ class ViewController: UIViewController {
     
     var tapCount = 0
 
+    @IBOutlet weak var textOne: UITextField!
+    @IBOutlet weak var textTwo: UITextField!
     @IBAction func buttonTapped(_ sender: Any) {
         
-        tapCount = tapCount + 1
-        if tapCount >= 20 {
-            theLabel.text = "You have tapped the button 20 times!"
+        print(textOne.text!)
+        print(textTwo.text!)
+   
         }
         
         // used print to learn about a useful debugging feature called print.
