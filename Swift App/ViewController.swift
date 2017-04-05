@@ -16,11 +16,11 @@ class ViewController: UIViewController {
     @IBAction func buttonTapped(_ sender: Any) {
         
         tapCount = tapCount + 1
-        if tapCount >= 10 {
-            theLabel.text = "You have tapped the button 10 times!"
+        if tapCount >= 20 {
+            theLabel.text = "You have tapped the button 20 times!"
         }
         
-        // used print to learn about a useful debugging feature called print
+        // used print to learn about a useful debugging feature called print.
         
         
     }
