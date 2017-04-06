@@ -15,17 +15,16 @@ class ViewController: UIViewController {
 
     @IBOutlet weak var textOne: UITextField!
     @IBOutlet weak var textTwo: UITextField!
-    @IBAction func buttonTapped(_ sender: Any) {
+    @IBAction func buttonTapped(_ sender: AnyObject) {
         
-        print(textOne.text!)
-        print(textTwo.text!)
-   
+       theLabel.text = "Answer: \(Double(textOne.text!)! + Double(textTwo.text!)!)"
+        
         }
         
         // used print to learn about a useful debugging feature called print.
         
         
-    }
+    
    
     @IBAction func buttonExercise(_ sender: Any) {
         
